@@ -1,0 +1,36 @@
+2026-03-09 07:55:52.670 No ASGI app assignments found in C:\data\PythonTrial\Training\app1_design_assistant_pkg\apps\app1_design_assistant\app.py
+2026-03-09 07:55:52.852 Filtered 62 packages down to 1 candidates for component scanning
+2026-03-09 07:55:52.855 Scanning 1 candidate packages for component manifests using 1 worker threads
+2026-03-09 07:55:52.930 Found 0 component manifests total
+2026-03-09 07:55:52.937 No asset roots to watch
+2026-03-09 07:55:52.941 File watching not started
+2026-03-09 07:55:52.946 Starting new event loop for server
+2026-03-09 07:55:52.954 Starting server...
+2026-03-09 07:55:52.960 Serving static content from C:\data\PythonTrial\Training\app1_design_assistant_pkg\venv\Lib\site-packages\streamlit\static
+2026-03-09 07:55:52.979 Server started on port 8501
+2026-03-09 07:55:52.981 Runtime state: RuntimeState.INITIAL -> RuntimeState.NO_SESSIONS_CONNECTED
+2026-03-09 07:55:53.143 Setting up signal handler
+2026-03-09 07:55:53.850 No singleton. Registering one.
+2026-03-09 07:55:53.854 Watcher created for C:\data\PythonTrial\Training\app1_design_assistant_pkg\apps\app1_design_assistant\app.py
+2026-03-09 07:55:53.855 AppSession initialized (id=b89f605a-2db8-4374-aeab-ff773258472f)
+2026-03-09 07:55:53.856 Created new session for client 2671042067152. Session ID: b89f605a-2db8-4374-aeab-ff773258472f
+2026-03-09 07:55:53.856 Runtime state: RuntimeState.NO_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2026-03-09 07:55:53.857 Received the following back message:
+rerun_script {
+  widget_states {
+  }
+  context_info {
+    timezone: "Asia/Singapore"
+    timezone_offset: -480
+    locale: "ja"
+    url: "http://localhost:8501/"
+    is_embedded: false
+    color_scheme: "light"
+  }
+}
+
+2026-03-09 07:55:53.858 Beginning script thread
+2026-03-09 07:55:53.859 Running script
+2026-03-09 07:55:53.859 Disconnecting files for session with ID b89f605a-2db8-4374-aeab-ff773258472f
+2026-03-09 07:55:53.859 Sessions still active: dict_keys([])
+2026-03-09 07:55:53.859 Files: 0; Sessions with files: 0

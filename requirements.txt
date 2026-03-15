@@ -1,0 +1,11 @@
+streamlit
+python-dotenv
+openai
+pandas
+requests
+beautifulsoup4
+pdfplumber
+tqdm
+numpy
+python-docx
+openpyxl

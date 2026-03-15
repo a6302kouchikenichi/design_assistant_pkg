@@ -1,0 +1,53 @@
+2026-03-09 07:55:17.397 No ASGI app assignments found in C:\data\PythonTrial\Training\app1_design_assistant_pkg\apps\app1_design_assistant\app.py
+2026-03-09 07:55:17.574 Filtered 62 packages down to 1 candidates for component scanning
+2026-03-09 07:55:17.574 Scanning 1 candidate packages for component manifests using 1 worker threads
+2026-03-09 07:55:17.607 Found 0 component manifests total
+2026-03-09 07:55:17.607 No asset roots to watch
+2026-03-09 07:55:17.607 File watching not started
+2026-03-09 07:55:17.607 Starting new event loop for server
+2026-03-09 07:55:17.627 Starting server...
+2026-03-09 07:55:17.631 Serving static content from C:\data\PythonTrial\Training\app1_design_assistant_pkg\venv\Lib\site-packages\streamlit\static
+2026-03-09 07:55:17.640 Server started on port 8501
+2026-03-09 07:55:17.641 Runtime state: RuntimeState.INITIAL -> RuntimeState.NO_SESSIONS_CONNECTED
+2026-03-09 07:55:17.725 Setting up signal handler
+2026-03-09 07:55:18.031 No singleton. Registering one.
+2026-03-09 07:55:18.038 Watcher created for C:\data\PythonTrial\Training\app1_design_assistant_pkg\apps\app1_design_assistant\app.py
+2026-03-09 07:55:18.039 AppSession initialized (id=3b024443-0a41-44bf-a677-3249d9bc816c)
+2026-03-09 07:55:18.041 Created new session for client 2153895651344. Session ID: 3b024443-0a41-44bf-a677-3249d9bc816c
+2026-03-09 07:55:18.042 Runtime state: RuntimeState.NO_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2026-03-09 07:55:18.413 Watcher created for C:\data\PythonTrial\Training\app1_design_assistant_pkg\apps\app1_design_assistant\app.py
+2026-03-09 07:55:18.413 AppSession initialized (id=83c5feed-0973-44be-a4e8-bd53b58c2a1e)
+2026-03-09 07:55:18.414 Created new session for client 2153896137744. Session ID: 83c5feed-0973-44be-a4e8-bd53b58c2a1e
+2026-03-09 07:55:18.414 Runtime state: RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2026-03-09 07:55:18.430 Received the following back message:
+rerun_script {
+  widget_states {
+  }
+  context_info {
+    timezone: "Asia/Singapore"
+    timezone_offset: -480
+    locale: "ja"
+    url: "http://localhost:8501/"
+    is_embedded: false
+    color_scheme: "light"
+  }
+}
+
+2026-03-09 07:55:18.432 Beginning script thread
+2026-03-09 07:55:18.433 Running script
+2026-03-09 07:55:18.434 Disconnecting files for session with ID 83c5feed-0973-44be-a4e8-bd53b58c2a1e
+2026-03-09 07:55:18.435 Sessions still active: dict_keys([])
+2026-03-09 07:55:18.435 Files: 0; Sessions with files: 0
+2026-03-09 07:55:18.451 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\data\PythonTrial\Training\app1_design_assistant_pkg\venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "C:\data\PythonTrial\Training\app1_design_assistant_pkg\venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\data\PythonTrial\Training\app1_design_assistant_pkg\apps\app1_design_assistant\app.py", line 5, in <module>
+    from common.settings import load_settings
+ModuleNotFoundError: No module named 'common'
+2026-03-09 07:55:18.599 Removing orphaned files...
+2026-03-09 07:55:18.601 Removing orphaned deferred callables...
